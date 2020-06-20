@@ -207,18 +207,13 @@ body {
 
 /* Media Queries */
 @media (max-width: 760px) {
-  .container {
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-
   .collect-email input {
     width: 300px;
   }
   .show {
     display: block;
   }
-  .about {
+  #about {
     grid-template-columns: repeat(1, 1fr);
   }
   #services .services-provided {
@@ -231,5 +226,18 @@ body {
   }
   .services-provided a {
     padding: 7rem 7rem;
+  }
+  .services-provided a {
+    padding: 7rem 7rem;
+    font-size: 1rem;
+
+    margin-right: 1rem;
+
+    margin-left: 1em;
+  }
+  #services .box {
+    width: 70%;
+    align-items: center;
+    margin-left: 140px;
   }
 }
